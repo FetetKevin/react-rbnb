@@ -1,0 +1,48 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 30px;
+    width: 440px;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column .gallery-img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+.gallery-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.middle {
+    width: 400px;
+    margin-left: 36px;
+    margin-top: 36px;
+}
+
+.middle > h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.middle > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 22px;
+}
